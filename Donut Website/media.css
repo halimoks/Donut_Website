@@ -1,0 +1,423 @@
+/* Extra Small Devices (phones) */
+@media (max-width: 576px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+        header {
+            height: 70px;
+            box-shadow: none;
+            border-bottom: 5px black solid;
+            padding: 4px;
+        }
+        header img{
+            height: 100%;
+            width: 100%;
+            left: 30%;
+        }
+        header ul, aside, .imm, .leftcontent, .rs img{
+            visibility: hidden;
+        }
+        main .rightcontent{
+            right: 42%;
+        }
+        main .welcome{
+            font-size: 2rem;
+            letter-spacing: 25px;
+            margin-left: -100px;
+        }
+        .products{
+            flex-wrap: nowrap;
+        }
+        .med{
+            color: #c26868;
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            width: 65%;
+            letter-spacing: 10px;
+            left: 45px;
+            text-shadow: none;
+            border: 4px solid wheat;
+            border-radius: 20px;
+            padding: 15px;
+            background-color: #32234A;
+
+        }
+        section .container{
+            width: 25%;
+            height: 200Px;
+            padding: 8%;
+
+        }
+        section .container img {
+            width: 130%;
+        }
+        section .container h1 , h2{
+            font-size: 1.1rem;
+        }
+        section .container button{
+            width: 140%;
+            height: 45px;
+            text-align: center;
+        }
+        section .container button font{
+            position: relative;
+            top: -7px;
+        }
+        .amenties , .nn1 {
+            display: none;
+        }
+        .about .ls{
+            position: relative;
+            left: 20%;
+        }
+        .ls h1{   
+            width: 100%;
+            padding: 15px;
+            font-size: 1.6rem;
+            margin-left: 15% ;
+            border: 4px solid wheat;
+        }
+        .ls p{
+            font-size: 1.2rem;
+            padding: 20px;
+            right: 47%;
+            width:  200%;
+            height: 20%;
+            top: 2%;
+        }
+        footer{
+            flex-direction: column;
+            
+        }
+        footer div{
+            flex-direction: column;
+            width: 70%;
+            margin: 10%;
+        }
+        footer h1{
+            margin: 10px;
+        }
+
+}
+  
+  /* Small Devices (landscape-oriented smartphones and smaller tablets) */
+  @media (min-width: 577px) and (max-width: 785px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+        header {
+            height: 90px;
+            box-shadow: none;
+            border-bottom: 5px black solid;
+            padding: 4px;
+        }
+        header img{
+            height: 100%;
+            width: 100%;
+            left: 35%;
+        }
+        header ul, aside, .imm, .leftcontent, .rs img{
+            visibility: hidden;
+        }
+        main .rightcontent{
+            right: 42%;
+        }
+        main .rightcontent h1{
+            left: 20px;
+        }
+        main .welcome{
+            font-size: 2rem;
+            letter-spacing: 25px;
+            margin-left: -100px;
+        }
+        .med{
+            color: #c26868;
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            width: 65%;
+            letter-spacing: 10px;
+            left: 45px;
+            text-shadow: none;
+            border: 4px solid wheat;
+            border-radius: 20px;
+            padding: 15px;
+            background-color: #32234A;
+        }
+        .products{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        section .container{
+            width: 25%;
+            height: 200Px;
+            padding: 8%;
+            /* height: 380px; */
+        }
+        section .container img {
+            width: 130%;
+        }
+        section .container h1 , h2{
+            font-size: 1.1rem;
+        }
+        section .container button{
+            width: 140%;
+            height: 45px;
+            text-align: center;
+        }
+        section .container button font{
+            position: relative;
+            top: -7px;
+        }
+        .amenties , .nn , .nn1 {
+            display: none;
+        }
+        .about .ls{
+            position: relative;
+            left: 20%;
+        }
+        .ls h1{   
+            width: 100%;
+            padding: 15px;
+            font-size: 1.6rem;
+            margin-left: 15% ;
+            border: 4px solid wheat;
+        }
+        .ls p{
+            font-size: 1.4rem;
+            padding: 20px;
+            left: -35%;
+            width:  180%;
+            height: 20%;
+            top: 2%;
+        }
+        footer{
+            flex-direction: column; 
+        }
+        footer div{
+            flex-direction: column;
+            width: 70%;
+            margin: 10%;
+        }
+    /* CSS for small tablets and landscape-oriented smartphones */
+  }
+  
+  /* Medium Devices (larger tablets and small laptops) */
+  @media (min-width: 785px) and (max-width: 992px) {
+    /* CSS for larger tablets and small laptops */
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+        header {
+            height: 90px;
+            box-shadow: none;
+            border-bottom: 5px black solid;
+            padding: 4px;
+        }
+        header img{
+            height: 100%;
+            width: 100%;
+            left: 35%;
+        }
+        header ul, aside, .imm, .leftcontent, .rs img{
+            visibility: hidden;
+        }
+        main .rightcontent{
+            right: 35%;
+        }
+        main .rightcontent h1{
+            left: 20px;
+        }
+        main .welcome{
+            font-size: 2rem;
+            letter-spacing: 25px;
+            margin-left: -100px;
+        }
+        .med{
+            color: #c26868;
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            width: 65%;
+            letter-spacing: 10px;
+            left: 70px;
+            text-shadow: none;
+            border: 4px solid wheat;
+            border-radius: 20px;
+            padding: 15px;
+            background-color: #32234A;
+        }
+        .products{
+            display: flex;
+            flex-direction: row;
+        }
+        section .container{
+            width: 25%;
+            padding: 8%;
+            margin: 10px;
+            /* height: 380px; */
+        }
+        .container button{
+            width: 120%;
+            margin-top: 50px;
+        }
+        .amenties , .nn , .nn1 {
+            display: none;
+        }
+        .about .ls{
+            position: relative;
+            left: 20%;
+        }
+        .ls h1{   
+            width: 100%;
+            padding: 15px;
+            font-size: 1.6rem;
+            margin-left: 15% ;
+            border: 4px solid wheat;
+        }
+        .ls p{
+            font-size: 1.7rem;
+            padding: 20px;
+            left: -35%;
+            width:  180%;
+            height: 20%;
+            top: 2%;
+        }
+        footer{
+            flex-direction: column; 
+        }
+        footer div{
+            flex-direction: column;
+            width: 70%;
+            margin: 10%;
+        }
+  }
+  
+  /* Large Devices (desktops and laptops) */
+  @media (min-width: 992px) and (max-width: 1350px) {
+    /* CSS for most desktops and laptops */
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+        header {
+            height: 100px;
+            box-shadow: none;
+            border-bottom: 5px black solid;
+            padding: 4px;
+        }
+        header img{
+            width: auto;
+            height: auto;
+            left: 40%;
+        }
+        header ul, .imm, .rs img{
+            visibility: hidden;
+        }
+    
+        aside{
+            left: 50px;
+        }
+        .leftcontent{
+            left: -20px;
+        }
+        .leftcontent button{
+            width: 65%;
+        }
+        main .rightcontent{
+            left: -17%;
+        }
+        main .rightcontent h1{
+            left: 20px;
+        }
+        main .welcome{
+            font-size: 5em;
+            letter-spacing: 25px;
+            margin-left: -100px;
+        }
+        .med{
+            color: #c26868;
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            width: 65%;
+            letter-spacing: 10px;
+            left: 70px;
+            text-shadow: none;
+            border: 4px solid wheat;
+            border-radius: 20px;
+            padding: 15px;
+            background-color: #32234A;
+        }
+        .products{
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        section .container{
+            width: 5%;
+            padding: 12%;
+            margin: 10px;
+            height: 150px;
+            
+        }
+        .container button{
+            width: 400%;
+            margin-bottom: 20%;
+        }
+        .container img{
+            width: 400%;
+        }
+        .nn2 {
+            display: none;
+        }
+        .about .ls{
+            position: relative;
+            left: 20%;
+        }
+        .ls h1{   
+            width: 100%;
+            padding: 15px;
+            font-size: 1.6rem;
+            margin-left: 15% ;
+            border: 4px solid wheat;
+        }
+        .ls p{
+            font-size: 1.7rem;
+            padding: 20px;
+            left: -10%;
+            width:  150%;
+            height: 20%;
+            top: 2%;
+
+
+        }
+        footer{
+            flex-direction: column; 
+        }
+        footer div{
+            flex-direction: column;
+            width: 70%;
+            margin: 5%;
+        }
+        footer ul{
+            margin-left: 5%;
+        }
+  }
+  
+  /* Extra Large Devices (large desktops and high-resolution screens) */
+  @media (min-width: 1351px) {
+
+    /* CSS for large desktops and high-resolution screens */
+  }
+  
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Style for menu icon */
+.menu-icon {
+  display: none; /* Initially hide the menu icon */
+  cursor: pointer;
+}

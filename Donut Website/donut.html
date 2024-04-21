@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut's Store</title>
+    <link rel="stylesheet" href="donut.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="media.css">
+    
+
+    <script>
+        function smooth(targetElement){
+            const target= document.getElementById(targetElement);
+            if (target) {
+                const offset = target.getBoundingClientRect().top + window.scrollY;
+            window.scroll({
+                top: offset,
+                behavior: "smooth"
+            }
+            )
+            }
+        }
+        window.onload = function() {
+            document.body.style.zoom = "85%";
+        };
+        function cli(){
+            var i = Number(document.getElementById('sp').textContent)
+            var n = i + 1
+            document.getElementById('sp').innerHTML = n
+        }
+    </script>
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="">
+        <input type="checkbox" id="menu-toggle">
+        <ul class="visible">
+            <li><a href="">Home</a></li>
+            <li><a href="#mysection" onclick="smooth('section1')">Product</a></li>
+            <li><a href="#sec4" onclick="smooth('section4')"> Amenties</a></li>        
+            <li><a href="#aboutme" onclick="smooth('section2')">About</a></li>
+            <li><a class="contactbutton" href="./contact/contact.html" target="_blank"> Contact</a></li>
+            <li><h1><a href="./payment/payment.html" target="_blank" title="card" class="bi bi-cart2"></a><span id="sp">0</span></h1></li>
+        </ul>
+
+        
+    </header>
+    
+    <aside id="aside">
+            <ul>
+                <li><a href="#" title="Facebook" class="fa fa-facebook"></a></li>
+                <li><a href="#" title="Instagram" class="fa fa-instagram"></a></li>
+                <li><a href="#" title="Twitter" class="fa fa-twitter"></a></li>
+                <li><a href="#" title="YouTube" class="fa fa-youtube"></a></li>
+            </ul>
+    </aside>
+
+    <main id="mainn">        
+        <h1 class="welcome">Welcome</h1>
+        <img class="imm" src="images/2ndbg.png" title="donut" alt="">
+        <div class="leftcontent">
+            <h1>ENJOY <br> YOUR <br> DONUTS</h1>
+            <button type="button" onclick="openn()">Get Started</button>
+        </div>
+        <div class="rightcontent">
+            <img src="images/rightimage.png" title="donut" alt="">
+            <h1>Baked it with the love!</h1>
+        </div>
+    </main>
+
+    <h1 class="maintitle med">We Serve</h1>
+
+    <section class="products" id="section1">
+        <div class="container">            
+            <img src="images/chocolate.png" title="donut">
+            <h1>Meisisipi Donut</h1>
+            <h2>$2.5</h2>
+            <button onclick="cli()"><font>Add to Card</font></button>
+        </div>
+        <div class="container">            
+            <img src="images/strawbery.png" title="donut">
+            <h1>Strawberry Sprinkle</h1>
+            <h2>$2.5</h2>
+            <button onclick="cli()"><font>Add to Card</font></button>
+        </div>
+        <div class="container">
+            <img src="images/oreo.png" title="donut">
+            <h1>Oreo Donut</h1>
+            <h2>$2.5</h2>
+            <button onclick="cli()"><font>Add to Card</font></button>
+        </div>        <div class="container">
+            <img src="images/black-jack.png" title="donut">
+            <h1>Black Jack</h1>
+            <h2>$2.5</h2>                
+            <button onclick="cli()"><font>Add to Card</font></button>
+        </div>
+        <div class="container nn">
+            <img src="images/caw.png" title="donut">
+            <h1>Jacky Chunk</h1>
+            <h2>$2.5</h2>
+            <button onclick="cli()"><font>Add to Card</font></button>
+        </div>
+        <div class="container nn">
+            <img src="images/oreo.png" title="donut">
+            <h1>Oreo Donut V2</h1>
+            <h2>$2.5</h2>
+            <button onclick="cli()"><font>Add to Card</font></button>
+        </div>
+        <div class="container nn nn2">
+            <img src="images/redvelvet.png" title="donut">
+            <h1>Red Velvet Cake</h1>
+            <h2>$2.5</h2>
+            <button onclick="cli()"><font>Add to Card</font></button>
+        </div>
+        <div class="container nn nn2">
+            <img src="images/caw1.png" title="donut">
+            <h1>Bluberry Cake</h1>
+            <h2>$2.5</h2>
+            <button onclick="cli()"><font>Add to Card</font></button>
+        </div>
+    </section>
+            <h1 class="maintitle nn1 med" id="section4">Amenties</h1>
+    <div class="amenties" class="section4">
+        <div>
+            <ul>
+                <li>
+                    <img src="images/take-away.png" title="donut">
+                    <h3 class="firstli">   TAKE AWAY</h3>
+                </li>
+                <li>
+                    <img src="images/delivery.png" title="donut">
+                    <h3 class="firstli">Home delivery</h3>
+                </li>
+                <li>
+                    <img src="images/payment-method.png" title="donut" >
+                    <h3 class="sl">Multiple Payement</h3>
+                    
+                </li>
+                <li>
+                    <img src="images/party.png" title="donut" ><br>
+                    <h3 class="sl">Party orders</h3>    
+                </li>
+            </ul>
+        </div>
+    </div>
+        <div class="about ">
+            <div class="ls" id="section2">
+                <h1 class="med">About Us</h1>
+                <p>Welcome to 'Halim's Donuts Shop,' where we craft heavenly donuts to satisfy your sweet tooth. Conveniently order online through our user-friendly website and enjoy exclusive discounts, making your sweet moments even sweeter! Our premium ingredients and unique flavors guarantee a delightful experience. Join our loyalty program for extra perks, and let Sweet Cravings add a touch of sweetness to your day. Order now for a moment of pure bliss delivered to your doorstep!
+                    </p>
+            </div>
+            <div class="rs">
+                <img src="images/bf.png" alt="">
+            </div>
+        </div>
+
+    <footer>
+        <div>
+            <h1>Contact Us</h1>
+            <ul>
+                <li><a href="mailto:halimelhailouch9@gmail.com">Email</a></li>
+                <li><a href="tel:+212679480990" >Phone</a></li>
+                <li><a href="">Adress</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1>About Us</h1>
+            <ul>
+                <li><a href="">Our branches</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Affiliate</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1>Follow Us</h1>
+            <ul>
+                <li><a href="" title="a"  class="fa fa-youtube"></a></li>
+                <li><a href="" title="a" class="fa fa-instagram"></a></li>
+                <li><a href="" title="a" class="fa fa-twitter"></a></li>
+                <li><a href="" title="a"  class="fa fa-facebook"></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

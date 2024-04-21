@@ -1,0 +1,56 @@
+.fa {
+    position: relative;
+    padding: 10px 12px;
+    right: 230%;
+    width: 14px;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px;
+    border-radius: 0.8rem;
+    transition: width 0.5s ease;
+}
+.fa:hover {
+    opacity: 0.6;
+    color: black;
+}
+.fa-facebook {
+    background: rgb(57, 57, 218);
+    color: wheat;
+    transition: 2s ease;
+}
+.fa-twitter {
+    background: rgb(0, 98, 255);
+    color: wheat;
+}
+.fa-instagram {
+    background: rgb(191, 90, 7);
+    color: wheat;
+}
+.fa-youtube {
+    background: red;
+    color: wheat;
+}
+.bi-cart4{
+    position: relative;
+    left: 39px;
+}
+header ul li .bi{
+    font-size: 2.2rem;
+    color: rgb(255, 151, 169);
+}
+header ul li .bi:hover{
+    border: none;
+    opacity: 0.9;
+}
+footer div .fa{
+    display:flex;
+    position: relative;
+    left: 10%;
+}
+input[name=subject]{
+    width: 89%;
+}
+a[title=card]{
+    position: relative;
+    left: 20px;
+}

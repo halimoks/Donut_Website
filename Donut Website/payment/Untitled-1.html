@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myButton" src="3.JPG">
+    <p>Button pressed <span id="count">0</span> times.</p>
+
+    <script>
+        var button = document.getElementById('myButton');
+        var countElement = document.getElementById('count');
+        var count = 0;
+
+// Add event listener to the button
+button.addEventListener('click', function() {
+    count++;
+    countElement.getElementById("count")
+});
+
+    </script>
+</body>
+</html>

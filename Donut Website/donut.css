@@ -1,0 +1,439 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    
+}
+::selection{
+    color: white;
+    background-color: brown;
+    text-shadow: none;
+}
+::placeholder{
+    color: #32234A;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+body {
+    background-image: url("images/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: rgba(0, 255, 255, 0);
+    box-shadow: #000000 10px 10px 10px;
+}
+header img {
+    position: relative;
+    height: 6%;
+    width: 6%;
+    margin-left: 60px;
+}
+header .visible {
+    display: flex;
+    align-items: center;
+    margin-right: 10vh;
+}
+header li {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+header li a{
+    padding: 10px;
+}
+header li a:hover{
+    border-bottom: 5px solid #c26868;
+}
+
+header .visible li .cnn:hover{
+    border: none;
+}
+header span{
+    font-size: 1.5rem;
+    padding: 6px 12px;
+    position: relative;
+    bottom: 3px;
+    left: 20px;
+    background-color: #c26868;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+right: 10vh;
+}
+main, aside{
+    margin-top: 5%;
+}
+aside {
+    position: relative;
+    float: left;
+    display: flex;
+    margin-left: 6%;
+    margin-top: 8%;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .welcome {
+    color: #c26868;
+    text-transform: uppercase;
+    letter-spacing: 90px;
+    font-size: 8em;
+    margin-top: 40px;
+    position: absolute;
+    top: -6%;
+}
+main .imm{
+    position: absolute;
+    left: 8%;
+    width: 65%;
+}
+
+.maintitle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 6px;
+    font-size: 5rem;
+    color: #ffdbdb;
+    text-shadow: 10px 10px 10px black;
+    margin: 7%;
+    left: 27%;
+    width: 30%;
+    border-bottom: 10px brown solid;
+    padding: 15px;
+}
+
+.leftcontent{
+    width: 44%;
+    position: relative;
+    right: 12%;
+    margin-top: 21%;
+}
+.leftcontent h1{
+    position: relative;
+    bottom:  15%;
+    margin: 3px;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2.5rem;
+}
+.leftcontent button{
+    position: relative;
+    margin-top: 15px;
+    width: 35%;
+    color: white;
+    box-shadow: black 10px 5px 15px;
+    padding: 15px 30px;
+    background-color: #32234A;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.rightcontent{
+    position: relative;
+    margin-top: 12%;
+    margin-left: 15%;
+}
+.rightcontent h1{
+    position: relative;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    letter-spacing: 2px;
+    color: white;
+    padding: 20px;
+    border-bottom: 7px black solid;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    margin: 10px 70px;
+    transition: transform 0.4s ;
+}
+.container{
+    text-align: center;
+    position: relative;
+    width: 14.5%;
+    margin: 15px;
+    padding: 2.5%;
+    height: 290px;
+    border-radius: 20px;
+    border: rgba(0, 0, 0, 0) 4px solid;
+    background-color: #ffdbdb ; 
+    transition: transform 0.4s ;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap; 
+}
+.container:hover{
+    transform: scale(1.07);
+}
+.container img{
+    /* position: relative;
+    bottom: 30px; */
+    width: 80%;
+}
+
+.container h1{
+    margin: 5Px;
+    color: rgb(67, 22, 109);
+}
+.container h2{
+    margin: 5px;
+    color: #32234A;
+}
+.container button{
+    padding: 20px 30Px;
+    border-radius: 10px;
+    background-color: #be0062;
+    color: white;
+    margin: 10px;
+    width: 95%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.06rem;
+}
+
+
+.amenties ul{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 25vh;
+    color: #c26868;
+    text-shadow: 4px 1px 3px rgb(0, 0, 0);
+}
+.amenties div ul li:nth-child(1) h3{
+    position: relative;
+    left: 3px;
+}
+.amenties div ul li:nth-child(2) h3{
+    position: relative;
+    right: 13px;
+}
+.amenties div ul li:nth-child(3) h3{
+    position: relative;
+    right: 28px;
+}
+.amenties div ul li:nth-child(4) h3{
+    position: relative;
+    left: -10px;
+}
+
+.amenties img{
+    width: 70px;
+    box-shadow: 10px 10px 10px black;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: brown;
+    margin-left: 5px;
+}
+.amenties h3{
+    position: relative;
+    top: 10px;
+    right: 20px;
+    white-space: nowrap;     
+    text-transform: uppercase;
+    color: #32234A;
+    text-shadow: 4px 1px 3px wheat;
+}
+.amenties .sl{
+    color: #c26868;
+    text-shadow: 4px 1px 3px black;
+}
+.amenties div{
+    padding: 30px;
+    box-shadow: 10px 10px 15px black;
+}
+
+
+.about{
+    display: flex;
+    height: 800px;
+    width: 90%;
+}
+.about .ls{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 6%;
+    text-align: center;
+}
+.ls h1{
+    justify-content: center;
+    letter-spacing: 6px;
+    font-size: 5rem;
+    color: #ffdbdb;
+    text-shadow: 10px 10px 10px black;
+    padding: 10px;
+    border-bottom: 6px #c26868 solid;
+}
+.ls p{
+    font-size: 1.6rem;
+    color: #32234A;
+    /* text-shadow: 2px 2px 2px white; */
+    position: relative;
+    font-weight: bold;
+    top:10%;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px #c26868;
+    color: black;}
+.about .rs{
+    position: relative;
+    top: 13%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+footer{
+    background-color: #32234A;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+footer div{
+    position: relative;
+    width: 27%;
+}
+footer ul{
+    position: relative;
+    right: 10%;
+}
+footer li{
+    margin: 5px;
+}
+footer h1{
+    margin-bottom: 10px;
+    border-bottom: 3px solid  #c26868;
+}
+footer div .fa{
+    position: relative;
+    padding: 10px 12px;
+    float: left;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}
+footer div a{
+    font-size: 1.2rem;
+}
+footer div a:hover{
+    color: #c26868;
+}
+
+
+
+.contactpage{
+    position: relative;
+    bottom: 50px;
+}
+.contactcontainer{
+    position: relative;
+    right: 30%;
+}
+.contactcontainer{
+    position: relative;
+    bottom: 80px;
+    right: 13px;
+    display: flex;
+    margin: auto;
+    height: 60%;
+    width: 80%;
+    color: #ffffff;
+    border: 8px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    box-shadow: 15px 20px 25px black ;
+}
+.co{
+    position: relative;
+    bottom: 30px;
+    white-space: nowrap; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: #32234A;
+}
+.rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c26868;
+    width: 50%;
+}
+.rightside img{
+    width: 450px;
+    height: 500px;
+}
+form button , input , textarea{
+    border-radius: 10px;
+    font-size: 17px;
+}
+input::placeholder{
+    position: relative;
+    left: 10px;
+}
+textarea::placeholder{
+    position: relative;
+    left: 8px;
+    top: 6px;
+}
+::placeholder{
+    letter-spacing: 1px;
+}
+form button{
+    padding: 15px;
+    width: 640px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #c26868;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+form input{
+    width: 290px;
+    padding: 15px;
+    margin-top: 40px;
+}
+input[name=subject]{
+    width: 91%;
+}
+textarea{
+    margin-top: 30px;
+    width: 640px;
+    resize: vertical; 
+    overflow-x: hidden;
+}
